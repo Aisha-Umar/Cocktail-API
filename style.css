@@ -1,0 +1,22 @@
+.carousel-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  #prevBtn,
+  #nextBtn {
+    margin-top: 10px;
+  }
+  
